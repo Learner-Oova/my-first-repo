@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Navigation Bar </title>
+    <style type="text/css">
+        body { margin: 0; padding: 0; font-family: cursive;}
+        .first-box { background-color: rgb(206, 201, 201); display: flex; justify-content: center
+            ; align-items: center; padding-top: 10px; padding-bottom: 10px; gap: 50px;}
+        form { display: flex; gap: 25px; justify-content: center; align-items: center;}
+        select { padding: 12px; border-radius: 0.2cm; border: none; padding-left: 20px; padding-right: 120px; font-family: cursive;
+        transition: 0.1s;}
+        button { padding: 5px; border-radius: 0.2cm; background-color: rgb(2, 2, 2); color: white; 
+        padding-left: 12px; padding-right: 12px; font-family: cursive; margin-right: 0;}
+        select:hover { border: 1px solid blue; transform: 1.0;}
+        i { font-size: 1.5rem;}
+        nav { background-color: rgb(232, 229, 229); display: flex; justify-content: center
+            ; align-items: center; padding-top: 12px; padding-bottom: 12px; gap: 29px;}
+        i { font-size: 1rem;}
+        aside { background-color: white; display: flex; justify-content: center
+            ; align-items: center; padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid black;}
+        a { text-decoration: none;}
+        .phone { background-image: url("https://cdn.cultofmac.com/wp-content/uploads/2024/12/iPhone-17-Pro-Max-renders-1.jpg");
+                background-size: cover; background-position: center; height: 600px;}
+    </style>
+        <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+</head>
+<body>
+    <header>
+        <div class="first-box">
+            <span> Choose another country or region to see content specific to your location. </span>
+            <form>
+                <select>
+                    <option value="Nigeria"> &#10004; Nigeria </option>
+                    <option value="others"> Other countries or region </option>
+                </select>
+                <button type="submit"> Continue </button>
+                <i class="fa-solid fa-xmark"></i>
+            </form>
+        </div>
+        <nav>
+            <i class="fa-brands fa-apple"></i>
+            <span> Store </span>  <span> Mac </span> <span> iPad </span> <span> iPhone </span> <span> Watch </span> <span> Vision </span> 
+            <span> AirPods </span> <span> TV & Home </span> <span> Entertainment </span> <span> Accessories </span> <span> Support </span>
+            <i class="fa-solid fa-magnifying-glass"></i> <i class="fa-solid fa-lock"></i>
+        </nav>
+        <aside> 
+            Last chance to get AirPods or an eligible accessory of your choice when you buy Mac or iPad with education
+            savings. Ends 9.30. <span> <a href="#shop"> Shop > </a> </span>
+        </aside>
+    </header>
+    <div class="phone">
+    </div>
+</body>
+</html>

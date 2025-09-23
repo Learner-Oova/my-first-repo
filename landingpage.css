@@ -1,0 +1,17 @@
+    body { background-color: #cfcfdbf1;}  
+    .container { display: flex; gap: 6.25rem; margin-left: 3.1rem;}
+    #shades-navigation { display: flex; gap: 6.25rem; margin-top: 3.2rem;}
+    #navigation { display: flex; gap: 4rem; font-size: small;}
+    #getstarted { border: 1px solid slateblue; display: flex; justify-content: center;
+    align-items: center; height: 2vw; width: 8vw; margin-top: 1.75rem; margin-left: 30rem;
+    color: slateblue; font-weight: bold;}
+    h5 { color: rgb(127, 121, 121); margin-bottom: 0.3rem;}
+    .keywords { text-align: center; margin-top: 6.25rem;}
+    h1 { margin-top: 0; margin-bottom: 0.31rem;}
+    .new { color: rgb(127, 121, 121); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    input, button { margin-top: 20px; padding: 10px 30px;}
+    button { background-color: orangered; color: white; border: none;}
+    footer { display: flex; justify-content: center; gap:250px; margin-top: 120px;}
+    h6 { margin-bottom: 0;}
+    h6 + div { margin-top: 10px;}
+    i {margin-right: 5px; font-size: 20px;}
